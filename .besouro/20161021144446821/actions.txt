@@ -87,3 +87,14 @@ CompilationAction 1477054721692 PlanetExplorer.java
 RefactoringAction 1477054739575 TestPlanetExplorer.java ADD void test_turnright()/2 METHOD
 RefactoringAction 1477054792644 TestPlanetExplorer.java RENAME test_turnright()/2=>void test_offtheedge() METHOD
 EditAction 1477054884990 TestPlanetExplorer.java 1234 7 15 7
+CompilationAction 1477054885251 TestPlanetExplorer.java
+CompilationAction 1477054885251 TestPlanetExplorer.java
+CompilationAction 1477054900087 TestPlanetExplorer.java
+CompilationAction 1477054900088 TestPlanetExplorer.java
+CompilationAction 1477054900264 TestPlanetExplorer.java
+CompilationAction 1477054900265 TestPlanetExplorer.java
+RefactoringAction 1477054908331 PlanetExplorer.java ADD void setPosition(int, int, String) METHOD
+RefactoringAction 1477054967463 PlanetExplorer.java ADD int pos_x FIELD
+RefactoringAction 1477054967464 PlanetExplorer.java ADD int pos_y FIELD
+RefactoringAction 1477054982007 PlanetExplorer.java ADD String facing FIELD
+EditAction 1477054991534 PlanetExplorer.java 2855 3 3 0
