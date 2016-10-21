@@ -14,4 +14,9 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
 		assertEquals("(0,1,N)", planet.executeCommand("f"));
 	}
+	@Test
+	public void test_movebackward(){
+		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
+		assertEquals("(0,-1,N)", planet.executeCommand("b"));
+	}
 }

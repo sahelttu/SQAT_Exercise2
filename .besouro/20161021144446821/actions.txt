@@ -51,3 +51,8 @@ RefactoringAction 1477053974416 TestPlanetExplorer.java RENAME test_moveforwa=>v
 RefactoringAction 1477053975429 TestPlanetExplorer.java RENAME test_moveforwar=>void test_moveforward FIELD
 RefactoringAction 1477053976440 TestPlanetExplorer.java RENAME test_moveforward=>void test_moveforward() METHOD
 EditAction 1477054089069 TestPlanetExplorer.java 417 2 4 2
+UnitTestCaseAction 1477054091933 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054091933 TestPlanetExplorer.java OK
+RefactoringAction 1477054108677 TestPlanetExplorer.java ADD void test_moveforward()/2 METHOD
+RefactoringAction 1477054115189 TestPlanetExplorer.java RENAME test_moveforward()/2=>void test_movebackward() METHOD
+EditAction 1477054125369 TestPlanetExplorer.java 577 3 6 3
