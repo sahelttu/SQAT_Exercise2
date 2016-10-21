@@ -5,7 +5,8 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test_executeCommand() {
-		fail("Not yet implemented");
+	public void test_moveNorthfacingNorth() {
+		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
+		assertEquals("(0,0,N)", planet.executeCommand("") );
 	}
 }
