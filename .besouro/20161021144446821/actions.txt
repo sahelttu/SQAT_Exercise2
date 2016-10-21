@@ -175,3 +175,8 @@ EditAction 1477057099635 PlanetExplorer.java 2885 3 5 0
 UnitTestCaseAction 1477057102569 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477057102569 TestPlanetExplorer.java FAIL
 EditAction 1477057129575 PlanetExplorer.java 2696 3 3 0
+CompilationAction 1477057129678 PlanetExplorer.java
+RefactoringAction 1477057166000 PlanetExplorer.java REMOVE setPosition(int, int, String) METHOD
+RefactoringAction 1477057174013 PlanetExplorer.java ADD void setPosition(int, int, String) METHOD
+CompilationAction 1477057188670 PlanetExplorer.java
+EditAction 1477057210097 PlanetExplorer.java 2707 3 5 0
