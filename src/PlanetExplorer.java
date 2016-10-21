@@ -31,6 +31,8 @@ public class PlanetExplorer {
 				    		 pos_x --;
 				    	 }else if (facing == "E"){
 				    		 pos_x ++;
+				    	 } if (pos_x == 100 && aChar == 'f'){
+				    		 
 				    	 }
 				     }else if (aChar == 'b'){
 				    	 if (facing == "N"){
