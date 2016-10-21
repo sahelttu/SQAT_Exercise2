@@ -23,13 +23,13 @@ public class PlanetExplorer {
 				index++) {
 				     char aChar = command.charAt(index);
 				     if (aChar == 'f'){
-				    	 if (facing == "NORTH"){
+				    	 if (facing == "N"){
 				    		 pos_y ++;
-				    	 }else if (facing == "SOUTH"){
+				    	 }else if (facing == "S"){
 				    		 pos_y --;
-				    	 }else if  (facing == "WEST"){
+				    	 }else if  (facing == "W"){
 				    		 pos_x --;
-				    	 }else if (facing == "EAST"){
+				    	 }else if (facing == "E"){
 				    		 pos_x ++;
 				    	 }
 				     }else if (aChar == 'b'){
@@ -74,6 +74,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return "(" + pos_x + " " + pos_y + " " + facing + ")";
+		return "(" + pos_x + "," + pos_y + "," + facing + ")";
 	}
 }
