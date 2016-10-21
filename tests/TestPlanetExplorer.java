@@ -32,6 +32,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_moving(){
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
-		assertEquals("(3,2,W)", planet.executeCommand("rffflff"));
+		assertEquals("(3,2,N)", planet.executeCommand("rffflff"));
 	}
 }
