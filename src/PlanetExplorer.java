@@ -53,7 +53,7 @@ public class PlanetExplorer {
 				    		 pos_y ++;
 				    	 }
 				     }else if (aChar == 'r'){
-				    	 if (facing == "NORTH"){
+				    	 if (facing == "N"){
 				    		 facing = "EAST";
 				    	 }else if (facing == "SOUTH"){
 				    		 facing = "WEST";
