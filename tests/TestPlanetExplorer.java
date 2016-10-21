@@ -37,7 +37,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_offtheedge(){
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
-		planet.setPosition(100, 0, "W");
-		assertEquals("(-100,0,W)", planet.executeCommand("f"));
+		planet.setPosition(-100, 0, "W");
+		assertEquals("(100,0,W)", planet.executeCommand("f"));
 		}
 }
