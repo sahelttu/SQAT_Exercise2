@@ -1,6 +1,6 @@
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID:145
 // Finish time:
 
 public class PlanetExplorer {
@@ -16,6 +16,9 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		int pos_x = 0;
+		int pos_z = 0;
+		String facing = "NORTH";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
