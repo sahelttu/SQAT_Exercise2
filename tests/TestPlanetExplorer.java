@@ -24,4 +24,9 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
 		assertEquals("(0,0,W)", planet.executeCommand("l"));
 	}
+	@Test
+	public void test_turnright(){
+		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
+		assertEquals("(0,0,E)", planet.executeCommand("r"));
+	}
 }
