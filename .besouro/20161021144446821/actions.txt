@@ -34,3 +34,9 @@ EditAction 1477053737982 PlanetExplorer.java 2575 2 5 0
 EditAction 1477053779989 PlanetExplorer.java 2583 2 5 0
 EditAction 1477053869596 PlanetExplorer.java 2595 2 5 0
 EditAction 1477053882307 PlanetExplorer.java 2599 2 5 0
+UnitTestCaseAction 1477053895094 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053895094 TestPlanetExplorer.java OK
+RefactoringAction 1477053932733 TestPlanetExplorer.java RENAME test_moveNorthfacingNorth()=>void test_neutralposition() METHOD
+RefactoringAction 1477053938744 TestPlanetExplorer.java RENAME test_neutralposition()=>void test_landingp() METHOD
+RefactoringAction 1477053941754 TestPlanetExplorer.java RENAME test_landingp()=>void test_landingposition() METHOD
+EditAction 1477053941788 TestPlanetExplorer.java 259 1 2 1
