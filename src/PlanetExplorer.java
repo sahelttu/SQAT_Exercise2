@@ -33,13 +33,13 @@ public class PlanetExplorer {
 				    		 pos_x ++;
 				    	 }
 				     }else if (aChar == 'b'){
-				    	 if (facing == "NORTH"){
+				    	 if (facing == "N"){
 				    		 pos_y --;
-				    	 }else if (facing == "SOUTH"){
+				    	 }else if (facing == "S"){
 				    		 pos_y ++;
-				    	 }else if  (facing == "WEST"){
+				    	 }else if  (facing == "W"){
 				    		 pos_x ++;
-				    	 }else if (facing == "EAST"){
+				    	 }else if (facing == "E"){
 				    		 pos_x --;
 				    	 }
 				     }else if (aChar == 'l'){
