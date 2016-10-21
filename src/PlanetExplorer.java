@@ -50,7 +50,7 @@ public class PlanetExplorer {
 				    	 }else if  (facing == "W"){
 				    		 facing = "S";
 				    	 }else if (facing == "E"){
-				    		 pos_y ++;
+				    		 facing = "N";
 				    	 }
 				     }else if (aChar == 'r'){
 				    	 if (facing == "N"){
