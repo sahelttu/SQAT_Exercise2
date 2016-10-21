@@ -44,11 +44,11 @@ public class PlanetExplorer {
 				    	 }
 				     }else if (aChar == 'l'){
 				    	 if (facing == "N"){
-				    		 pos_x --;
+				    		 facing = "W";
 				    	 }else if (facing == "S"){
-				    		 pos_x ++;
+				    		 facing = "E";
 				    	 }else if  (facing == "W"){
-				    		 pos_y --;
+				    		 facing = "S";
 				    	 }else if (facing == "E"){
 				    		 pos_y ++;
 				    	 }
