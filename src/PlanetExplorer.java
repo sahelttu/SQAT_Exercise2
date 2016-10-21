@@ -33,8 +33,6 @@ public class PlanetExplorer {
 				    		 pos_y --;
 				    	 }else if  (facing == "W"){
 				    		 pos_x --;
-				    	 }if (pos_x == 100){
-				    		 pos_x = 0;
 				    	 }else if (facing == "E"){
 				    		 pos_x ++;
 				    	 } if (pos_x == 100 && facing == "W" && aChar == 'f'){
@@ -72,7 +70,10 @@ public class PlanetExplorer {
 				    	 }else if (facing == "E"){
 				    		 facing = "S";
 				    	 }
+
 				     }
+				     if (pos_x == 100){
+			    		 pos_x = 0;}
 				}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
