@@ -67,3 +67,8 @@ UnitTestSessionAction 1477054169869 TestPlanetExplorer.java OK
 RefactoringAction 1477054178838 TestPlanetExplorer.java ADD void test_turnleft()/2 METHOD
 RefactoringAction 1477054183848 TestPlanetExplorer.java RENAME test_turnleft()/2=>void test_turnright() METHOD
 EditAction 1477054192927 TestPlanetExplorer.java 888 5 10 5
+UnitTestCaseAction 1477054194887 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054194887 TestPlanetExplorer.java OK
+RefactoringAction 1477054202881 TestPlanetExplorer.java ADD void test_turnright()/2 METHOD
+RefactoringAction 1477054208892 TestPlanetExplorer.java RENAME test_turnright()/2=>void test_moving() METHOD
+EditAction 1477054269106 TestPlanetExplorer.java 1047 6 12 6
