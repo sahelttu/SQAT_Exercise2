@@ -18,7 +18,7 @@ public class PlanetExplorer {
 		
 		int pos_x = 0;
 		int pos_y = 0;
-		String facing = "NORTH";
+		String facing = "N";
 		for (int index = 0; index < command.length();
 				index++) {
 				     char aChar = command.charAt(index);
