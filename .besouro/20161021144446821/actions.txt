@@ -180,3 +180,6 @@ RefactoringAction 1477057166000 PlanetExplorer.java REMOVE setPosition(int, int,
 RefactoringAction 1477057174013 PlanetExplorer.java ADD void setPosition(int, int, String) METHOD
 CompilationAction 1477057188670 PlanetExplorer.java
 EditAction 1477057210097 PlanetExplorer.java 2707 3 5 0
+UnitTestCaseAction 1477057215119 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057215119 TestPlanetExplorer.java FAIL
+EditAction 1477057266420 PlanetExplorer.java 2713 3 5 0
