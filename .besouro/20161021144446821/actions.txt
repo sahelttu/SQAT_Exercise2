@@ -12,3 +12,4 @@ RefactoringAction 1477051813790 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1477051822304 TestPlanetExplorer.java RENAME test_moveNorth()=>void test_moveNorthfacingNorth() METHOD
 EditAction 1477052462638 PlanetExplorer.java 2019 2 5 0
 EditAction 1477052583657 PlanetExplorer.java 2302 2 5 0
+EditAction 1477052605359 PlanetExplorer.java 2302 2 5 0
