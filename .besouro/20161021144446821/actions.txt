@@ -40,3 +40,14 @@ RefactoringAction 1477053932733 TestPlanetExplorer.java RENAME test_moveNorthfac
 RefactoringAction 1477053938744 TestPlanetExplorer.java RENAME test_neutralposition()=>void test_landingp() METHOD
 RefactoringAction 1477053941754 TestPlanetExplorer.java RENAME test_landingp()=>void test_landingposition() METHOD
 EditAction 1477053941788 TestPlanetExplorer.java 259 1 2 1
+RefactoringAction 1477053958834 TestPlanetExplorer.java ADD void te FIELD
+RefactoringAction 1477053960845 TestPlanetExplorer.java RENAME te=>void test_ FIELD
+RefactoringAction 1477053964357 TestPlanetExplorer.java RENAME test_=>void test_m FIELD
+RefactoringAction 1477053965868 TestPlanetExplorer.java RENAME test_m=>void test_mo FIELD
+RefactoringAction 1477053967378 TestPlanetExplorer.java RENAME test_mo=>void test_mov FIELD
+RefactoringAction 1477053968389 TestPlanetExplorer.java RENAME test_mov=>void test_move FIELD
+RefactoringAction 1477053972405 TestPlanetExplorer.java RENAME test_move=>void test_moveforwa FIELD
+RefactoringAction 1477053974416 TestPlanetExplorer.java RENAME test_moveforwa=>void test_moveforwar FIELD
+RefactoringAction 1477053975429 TestPlanetExplorer.java RENAME test_moveforwar=>void test_moveforward FIELD
+RefactoringAction 1477053976440 TestPlanetExplorer.java RENAME test_moveforward=>void test_moveforward() METHOD
+EditAction 1477054089069 TestPlanetExplorer.java 417 2 4 2

@@ -9,4 +9,9 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
 		assertEquals("(0,0,N)", planet.executeCommand("") );
 	}
+	@Test
+	public void test_moveforward(){
+		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
+		assertEquals("(0,1,N)", planet.executeCommand("f"));
+	}
 }
