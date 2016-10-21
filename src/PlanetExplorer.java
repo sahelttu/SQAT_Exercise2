@@ -17,14 +17,20 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		
 		int pos_x = 0;
-		int pos_z = 0;
+		int pos_y = 0;
 		String facing = "NORTH";
 		for (int index = 0; index < command.length();
 				index++) {
 				     char aChar = command.charAt(index);
 				     if (aChar == 'f'){
 				    	 if (facing == "NORTH"){
-				    		 
+				    		 pos_y ++;
+				    	 }else if (facing == "SOUTH"){
+				    		 pos_y --;
+				    	 }else if  (facing == "WEST"){
+				    		 pos_x --;
+				    	 }else if (facing == "EAST"){
+				    		 pos_x ++;
 				    	 }
 				     }
 				}
