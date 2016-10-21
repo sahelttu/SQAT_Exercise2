@@ -38,6 +38,6 @@ public class TestPlanetExplorer {
 	public void test_offtheedge(){
 		PlanetExplorer planet = new PlanetExplorer(100, 100, "");
 		planet.setPosition(0, 0, "W");
-		assertEquals("(100,0,W)", planet.executeCommand("f"));
+		assertEquals("(99,0,W)", planet.executeCommand("f"));
 		}
 }
