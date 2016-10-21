@@ -29,6 +29,9 @@ public class PlanetExplorer {
 				     if (aChar == 'f'){
 				    	 if (facing == "N"){
 				    		 pos_y ++;
+				    	 } if (pos_x == -100 && facing == "W" && aChar == 'f'){
+				    		 pos_x = 100;
+				    		 }
 				    	 }else if (facing == "S"){
 				    		 pos_y --;
 				    	 }else if  (facing == "W"){
@@ -37,7 +40,7 @@ public class PlanetExplorer {
 				    		 pos_x ++;
 				    	 } if (pos_x == -100 && facing == "W" && aChar == 'f'){
 				    		 pos_x = 100;
-				    		 pos_x ++;
+				    		 pos_x;
 				    	 } if (pos_x == 100 && facing == "E" && aChar == 'b'){
 				    		 pos_x = -100;
 				    	 }
