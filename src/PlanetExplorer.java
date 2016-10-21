@@ -26,16 +26,18 @@ public class PlanetExplorer {
 		for (int index = 0; index < command.length();
 				index++) {
 				     char aChar = command.charAt(index);
-				    if (aChar == 'f'){
+				     if (aChar == 'f'){
 				    	 if (facing == "N"){
 				    		 pos_y ++;
 				    	 }else if (facing == "S"){
 				    		 pos_y --;
 				    	 }else if  (facing == "W"){
 				    		 pos_x --;
+				    	 }
 				    	 }else if (facing == "E"){
 				    		 pos_x ++;
-				    }else if (aChar == 'b'){
+				    	 
+				     }else if (aChar == 'b'){
 				    	 if (facing == "N"){
 				    		 pos_y --;
 				    	 }else if (facing == "S"){
@@ -45,7 +47,7 @@ public class PlanetExplorer {
 				    	 }else if (facing == "E"){
 				    		 pos_x --;
 				    	 }
-				    }else if (aChar == 'l'){
+				     }else if (aChar == 'l'){
 				    	 if (facing == "N"){
 				    		 facing = "W";
 				    	 }else if (facing == "S"){
@@ -55,7 +57,7 @@ public class PlanetExplorer {
 				    	 }else if (facing == "E"){
 				    		 facing = "N";
 				    	 }
-				    }else if (aChar == 'r'){
+				     }else if (aChar == 'r'){
 				    	 if (facing == "N"){
 				    		 facing = "E";
 				    	 }else if (facing == "S"){
@@ -65,10 +67,7 @@ public class PlanetExplorer {
 				    	 }else if (facing == "E"){
 				    		 facing = "S";
 				    	 }
-
 				     }
-				     if (pos_x == 100){
-			    		 pos_x = 0;}
 				}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -81,7 +80,6 @@ public class PlanetExplorer {
 		 */
 		
 		return "(" + pos_x + "," + pos_y + "," + facing + ")";
-	}
 	}
 
 	public void setPosition(int i, int j, String string) {
