@@ -80,3 +80,10 @@ UnitTestSessionAction 1477054284366 TestPlanetExplorer.java OK
 EditAction 1477054583726 PlanetExplorer.java 2658 2 5 0
 EditAction 1477054609386 PlanetExplorer.java 2671 2 5 0
 EditAction 1477054714356 PlanetExplorer.java 2774 2 0 0
+CompilationAction 1477054714446 PlanetExplorer.java
+CompilationAction 1477054714446 PlanetExplorer.java
+CompilationAction 1477054721691 PlanetExplorer.java
+CompilationAction 1477054721692 PlanetExplorer.java
+RefactoringAction 1477054739575 TestPlanetExplorer.java ADD void test_turnright()/2 METHOD
+RefactoringAction 1477054792644 TestPlanetExplorer.java RENAME test_turnright()/2=>void test_offtheedge() METHOD
+EditAction 1477054884990 TestPlanetExplorer.java 1234 7 15 7
