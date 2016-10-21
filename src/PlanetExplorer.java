@@ -43,7 +43,7 @@ public class PlanetExplorer {
 				    		 pos_x --;
 				    	 }
 				     }else if (aChar == 'l'){
-				    	 if (facing == "NORTH"){
+				    	 if (facing == "N"){
 				    		 pos_x --;
 				    	 }else if (facing == "SOUTH"){
 				    		 pos_x ++;
