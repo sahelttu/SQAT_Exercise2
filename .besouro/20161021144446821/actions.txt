@@ -11,3 +11,4 @@ FileOpenedAction 1477051792033 TestRomanNumerals.java 2124 13 40 14
 RefactoringAction 1477051813790 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_moveNorth() METHOD
 RefactoringAction 1477051822304 TestPlanetExplorer.java RENAME test_moveNorth()=>void test_moveNorthfacingNorth() METHOD
 EditAction 1477052462638 PlanetExplorer.java 2019 2 5 0
+EditAction 1477052583657 PlanetExplorer.java 2302 2 5 0
