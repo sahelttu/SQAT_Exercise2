@@ -32,6 +32,16 @@ public class PlanetExplorer {
 				    	 }else if (facing == "EAST"){
 				    		 pos_x ++;
 				    	 }
+				     }else if (aChar == 'b'){
+				    	 if (facing == "NORTH"){
+				    		 pos_y --;
+				    	 }else if (facing == "SOUTH"){
+				    		 pos_y ++;
+				    	 }else if  (facing == "WEST"){
+				    		 pos_x ++;
+				    	 }else if (facing == "EAST"){
+				    		 pos_x --;
+				    	 }
 				     }
 				}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
