@@ -29,18 +29,16 @@ public class PlanetExplorer {
 				     if (aChar == 'f'){
 				    	 if (facing == "N"){
 				    		 pos_y ++;
-				    	 } if (pos_x == -100 && facing == "W" && aChar == 'f'){
-				    		 pos_x = 100;
-				    		 }
 				    	 }else if (facing == "S"){
 				    		 pos_y --;
 				    	 }else if  (facing == "W"){
 				    		 pos_x --;
+				    	 }if (pos_x == 100){
+				    		 pos_x = -100;
 				    	 }else if (facing == "E"){
 				    		 pos_x ++;
-				    	 } if (pos_x == -100 && facing == "W" && aChar == 'f'){
-				    		 pos_x = 100;
-				    		 pos_x;
+				    	 } if (pos_x == 100 && facing == "W" && aChar == 'f'){
+				    		 pos_x = -100;
 				    	 } if (pos_x == 100 && facing == "E" && aChar == 'b'){
 				    		 pos_x = -100;
 				    	 }
