@@ -54,9 +54,9 @@ public class PlanetExplorer {
 				    	 }
 				     }else if (aChar == 'r'){
 				    	 if (facing == "NORTH"){
-				    		 pos_x ++;
+				    		 facing = "EAST";
 				    	 }else if (facing == "SOUTH"){
-				    		 pos_x --;
+				    		 facing = "WEST";
 				    	 }else if  (facing == "WEST"){
 				    		 pos_y --;
 				    	 }else if (facing == "EAST"){
@@ -74,6 +74,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return "(" + pos_x + " " + pos_y + " " + facing + ")";
 	}
 }
