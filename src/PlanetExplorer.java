@@ -19,6 +19,15 @@ public class PlanetExplorer {
 		int pos_x = 0;
 		int pos_z = 0;
 		String facing = "NORTH";
+		for (int index = 0; index < command.length();
+				index++) {
+				     char aChar = command.charAt(index);
+				     if (aChar == 'f'){
+				    	 if (facing == "NORTH"){
+				    		 
+				    	 }
+				     }
+				}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
