@@ -88,6 +88,6 @@ public class PlanetExplorer {
 	public void setPosition(int i, int j, String string) {
 		pos_x = i;
 		pos_y = j;
-		facing = "";
+		facing = string;
 	}
 }
